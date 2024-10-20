@@ -25,7 +25,6 @@
         // https://github.com/urob/zmk-config#timeless-homerow-mods
         hm_l: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_LEFT";
             #binding-cells = <2>;
             bindings = <&kp>,  <&kp>;
 
@@ -39,7 +38,6 @@
 
         hm_r: homerow_mods_right {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_RIGHT";
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
 
@@ -57,7 +55,6 @@
         // cause false negatives.
         hm_shift_l: hm_shift_l {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_FAST_LEFT";
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
 
@@ -71,7 +68,6 @@
 
         hm_shift_r: hm_shift_r {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_FAST_RIGHT";
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
 
